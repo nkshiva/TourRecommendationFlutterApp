@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tourapp-79c8c",
+          "appId": "1:584546997720:android:4f67ad292c0d3122194ead",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tourapp-79c8c",
+          "configurations": {
+            "android": "1:584546997720:android:4f67ad292c0d3122194ead",
+            "ios": "1:584546997720:ios:7367c590ae6d4609194ead",
+            "macos": "1:584546997720:ios:7367c590ae6d4609194ead",
+            "web": "1:584546997720:web:4aff7fee9e8a09c3194ead",
+            "windows": "1:584546997720:web:21c9db9fcaf44655194ead"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "y",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
